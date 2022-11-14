@@ -1,0 +1,81 @@
+.signup-info-container{
+    font-family: IRANSansWeb(FaNum) ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-info{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 428px;
+}
+
+.sign-up-info-header{
+    margin-left:400px;
+}
+
+.sign-up-info-main{
+    background-color: #ffffff;
+    width: 317px;
+    height: 552px;
+    margin-right: 36px;
+    margin-top: 80px;
+    border-radius: 21px;
+    padding-right: 35px;
+}
+
+.main-title {
+    text-align: center;
+    border-bottom: solid 2px #363636;
+    width: 252px;
+    margin-right: 13px;
+    padding-bottom: 8px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.snooker-img{
+    width: 252px;
+    margin-right: 13px;
+}
+
+.main-title-info{
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 13px;
+}
+
+.sign-up-info-main >h5 {
+   font-size: 16px;
+   font-weight: 700;
+   margin-right: 13px;
+}
+
+.course-info{
+    width: 252px;
+    text-align: center;
+    margin-top: -10px;
+    margin-right: 13px;
+}
+
+
+
+.buy-course{
+    border: 0;
+    background-image: linear-gradient(to left , #AE1010 , #661313);
+    color: #ffffff;
+    width: 191px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+    margin-right: 48px;
+}
+
+.info-footer{
+    margin-top: 15px;
+}

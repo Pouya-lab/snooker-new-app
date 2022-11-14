@@ -1,0 +1,82 @@
+.register-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Red{
+    color: #AE1010;
+}
+
+
+.register{
+    background-color: #ffffff;
+    width:336px;
+    height: 429px;
+    margin-top: 620px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 8px 7px 38px rgba(0, 0, 0, 0.15);
+
+}
+
+.cover-register{
+    background: url('../../public/img/login.png') no-repeat center ;
+    height: 370px;
+    width: inherit;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .register-text{
+        font-size: 18px;
+        font-weight: 700;
+        padding-top: 58px;
+    }
+
+    .reg-btns{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reg-sign-up{
+        margin-top: 124px;
+        width: 237px;
+        height: 51px;
+        color: #ffffff;
+        background-image:linear-gradient(to left ,#AE1010 , #661313) ;
+        cursor: pointer;
+        border: 0;
+        border-radius: 8px;
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 40px;
+    }
+
+    .reg-sign-in{
+        width: 237px;
+        height: 51px;
+        border-width: 4px;
+        border-style: solid;
+        border-radius: 8px;
+        border-color: #AE1010;
+        background-color: #ffffff;
+        color: #AE1010;
+        font-weight: 700;
+        font-size: 18px;
+        cursor: pointer;
+    }
+    
+    .footer-reg-text{
+        margin-top: 182px;
+        width: 280px;
+        height: 173px;
+        padding-bottom: 60px;
+        text-align: center;
+        font-size: 12px;
+    }
+

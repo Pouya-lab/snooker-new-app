@@ -1,0 +1,45 @@
+.eight-table-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.eight-table-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 428px;
+}
+
+.eight-header{
+    margin-left: 400px;
+}
+
+.eight-items{
+    margin-top: 201px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 160px;
+}
+
+.eight-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 31px;
+}
+
+.eight-item > Button{
+    width: 339px;
+    height: 94px;
+    border: 0;
+    background-color: #ffffff;
+    border-radius: 21px;
+    margin-bottom: 19px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}

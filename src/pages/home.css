@@ -1,0 +1,118 @@
+.home-container{
+    font-family: IRANSansWeb(FaNum) ;
+    background: url('../../public/img/img2.png') no-repeat center;
+    height: 926px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 926px;
+    width: 428px;
+}
+
+.home-header{
+    margin-left: 400px;
+}
+
+
+.menu{
+    height: 445px;
+    margin-top: 150px;
+}
+
+.menu > div{
+    background-color: #ffffff;
+    border-radius: 21px;
+}
+
+.reservation{
+    width: 234px;
+    height: 129px;
+    margin-right: 45px;
+    margin-bottom: 29px;
+}
+
+.reserve-btn{
+    width: 90%;
+    height: 90%;
+    border: 0;
+    border-radius: 21px;
+    background-color: inherit;
+    display: flex;
+}
+
+.reserve-btn > p{
+    padding-top: 21px;
+    padding-right: 31px;
+    padding-left: 34px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.reserve-btn > img{
+    padding-top: 43px;
+}
+
+.signing-up-courses{
+    width: 339px;
+    height: 129px;
+    margin-right: 45px;
+    margin-bottom: 25px;
+}
+
+
+.sign-courses-btn{
+    width: 90%;
+    height: 90%;
+    border: 0;
+    background-color: inherit;
+    border-radius: 21px;
+    display: flex;
+}
+
+.sign-courses-btn > p{
+    padding-top: 36px;
+    padding-right: 31px;
+    padding-left: 56px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sign-courses-btn > img{
+    padding-top: 43px;
+}
+
+.bar{
+    width: 231px;
+    height: 129px;
+    margin-right: 153px;
+}
+
+.bar-btn{
+    width: 90%;
+    height: 90%;
+    border: 0;
+    background-color: inherit;
+    display: flex;
+    border-radius: 21px;
+}
+
+.bar-btn > p{
+    padding-top: 34px;
+    padding-right: 36px;
+    padding-left: 57px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.bar-btn > img{
+    padding-top: 43px;
+    margin-bottom: 100px;
+}

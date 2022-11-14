@@ -1,0 +1,107 @@
+.info-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Red{
+    color: #AE1010;
+}
+
+    .cover-info{
+        background: url('../../public/img/login.png') no-repeat center ;
+        height: 370px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .info{
+        background-color: #ffffff;
+        width:336px;
+        margin-top: 600px;
+        position: relative;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 8px 7px 38px rgba(0, 0, 0, 0.15);
+    }
+
+    .info-text{
+        margin-top: 58px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .input-info:first-child{
+        margin-bottom: 33px;
+    }
+
+    .input-info{
+        border-bottom: 2px solid rgba(0,0,0,0.6);
+        padding: 5px;
+        width: 237px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+    }
+
+    .input-info , input::placeholder{
+        font-size: 11px;
+    }
+
+    .about{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about > div{
+        margin-top: 33px;
+        border-bottom: 1px solid;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+    }
+
+    /* .show{
+        margin-right: 140px;
+    } */
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        margin-top: -43px;
+    }
+
+    .info-btn-sign-in{
+        background-color: inherit;
+        border: none;
+        cursor: pointer;
+        font-weight: 700;
+    }
+
+    
+    .info-sign-in{
+        width: 149px;
+        height: 35px;
+        background-image: linear-gradient(to left , #AE1010 , #661313);
+        color:#ffffff;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 100px;
+       margin-bottom: 48px;
+    }
+
+ .footer-info{
+    margin-top: 20px;
+ }

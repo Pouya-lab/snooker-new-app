@@ -1,0 +1,115 @@
+.login-container{
+    font-family: IRANSansWeb(FaNum) ;
+    background: url('../../public/img/img2.png') no-repeat center;
+    height: 926px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    direction: rtl;
+}
+
+.Red{
+    color: #AE1010;
+}
+
+    .cover-login{
+        background: url('../../public/img/login.png') no-repeat center ;
+        height: 370px;
+        width: inherit;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .login{
+        background-color: #ffffff;
+        width:336px;
+        height: 499px;
+        margin-top: 620px;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        box-shadow: 8px 7px 38px rgba(0, 0, 0, 0.15);
+    }
+
+    .login-text{
+        margin-top: 58px;
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .forms{
+        display: flex;
+        flex-direction: column;
+        margin-top: 98px;
+        justify-content: center;
+    }
+
+    .input-login:first-child{
+        margin-bottom: 64px;
+    }
+
+    .input-login{
+        border-bottom: 2px solid rgba(0,0,0,0.6);
+        padding: 5px;
+        width: 237px;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        outline: none;
+    }
+
+    .input-login , input::placeholder{
+        font-size: 11px;
+    }
+
+    .forgotten-pass{
+        display: flex;
+        justify-content: center;
+        font-size: 10px;
+        font-weight: 700;
+        margin-top: 7px;
+        margin-bottom: 76px;
+    }
+
+    .btns{
+        display: flex;
+        flex-direction: column;
+        margin-top: -43px;
+    }
+
+    .btn-forgotten-pass{
+        background-color: inherit;
+        border: none;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    .btn-sign-up{
+        background-color: inherit;
+        border: none;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    
+    .login-sign-in{
+        width: 149px;
+        height: 35px;
+        background-image: linear-gradient(to left , #AE1010 , #661313);
+        color:#ffffff;
+        border: none;
+        font-size: 14px;
+        font-weight: 700;
+        border-radius: 8px;
+        cursor: pointer;
+        margin-top: 40px;
+       
+    }
+
+    .footer-login-text{
+        text-align: center;
+        margin-top: 180px;
+    }

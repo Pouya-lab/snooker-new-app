@@ -1,0 +1,27 @@
+
+.home-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 67px;
+}
+
+.home-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 183px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+    width: 101px;
+    height: 35px;
+    border-radius: 9px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.home-section > i{
+    font-size: 19px; 
+    font-weight: 500;
+    padding-left: 6px;
+}

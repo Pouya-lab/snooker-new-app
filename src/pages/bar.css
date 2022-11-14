@@ -1,0 +1,171 @@
+.bar-container{
+    font-family: IRANSansWeb(FaNum) ;
+    background: url('../../public/img/img2.png') no-repeat center;
+    /* height: 926px; */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+    direction: rtl;
+}
+
+.bar-main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 926px;
+    width: 428px;
+}
+
+.bar-header{
+    margin-left: 400px;
+}
+
+.bar-menu{
+    background-color: #ffffff;
+    width: 317px;
+    height: 466px;
+    margin-right: 55px;
+    margin-top: 144px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 21px;
+}
+
+.menu-title{
+    font-size: 20px;
+    font-weight: 700;
+    height: 33px;
+    width: 252px;
+    text-align: center;
+    border-bottom: solid #363636 2px ;
+    /* opacity: 0.4; */
+}
+
+.menu-options{
+    display: flex;
+    margin-right: -40px;
+}
+
+
+.coffee-list{
+    margin-top: 5px;
+    width: 238px;
+}
+
+.menu-options > Button{
+    border: solid #ffffff 2px;
+    box-shadow: 3px 4px 16px rgba(0, 0, 0, 0.1);
+    background-color: inherit;
+    border-radius: 5px;
+    margin-left: 18px;
+    font-size: 10px;
+    font-weight: 500;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu-options > Button:focus{
+    border:  solid 2px #AE1010;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.food-btn{
+    padding: 0 14px;
+}
+
+.bar-icon{
+    margin-left: 5px;
+}
+
+.coffee-list-items{
+    display: flex;
+    justify-content: space-between;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 500;
+    width: 300px;
+    margin-right: -30px;
+}
+
+.coffee-list-items {
+    border-bottom: solid 1px #363636;
+    width: 288px;
+    text-align: center;
+    line-height: 40px;
+}
+
+.coffee-list-items:last-child{
+    border: 0;
+}
+
+
+.coffeeName{
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.price{
+    font-size: 12px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.quantity{
+    margin-top: 10px;
+}
+
+.quantity-count-default{
+    margin-right: 20px;
+}
+
+.count-quantity{
+    display: flex;
+    justify-content: center;
+}
+
+.count-quantity >p{
+    margin-top: -8px;
+    margin-right: 6px;
+}
+
+.increase-btn{
+    display: grid;
+    justify-content: center;
+   width: 26px;
+    height: 24px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: #ffffff;
+    color: #10AE46;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 35px;
+}
+
+.decrease-btn{
+    display: grid;
+    justify-content: center;
+    width: 26px;
+    height: 24px;
+    background: #FFFFFF;
+    box-shadow: 2px 3px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+    border: #ffffff;
+    font-size: 22px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-right: 7px;
+}
+
+.footer-btn{
+    margin-top: 40px;
+}

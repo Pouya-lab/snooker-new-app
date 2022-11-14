@@ -1,0 +1,76 @@
+.schedule-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    display: flex;
+    justify-content: center;
+}
+
+.schedule-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 428px;
+}
+
+.schedule-header{
+    margin-left: 430px;
+}
+
+.schedule-title{
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+.schedule-time-table{
+    width: 339px;
+    height: 402px;
+    background-color: #ffffff;
+    border-radius: 21px;
+}
+
+.time:first-child{
+    margin-top: 15px;
+}
+
+.time{
+    background: #FFFFFF;
+    box-shadow: 3px 4px 21px rgba(0, 0, 0, 0.1);
+    border-radius: 11px;
+    margin-bottom: 10px;
+    height: 44px;
+    width: 308px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.time > input{
+    margin-left: 128px;
+    margin-right: 10px;
+}
+
+.continue-btn{
+    margin-top: 41px;
+}
+
+.continue-btn > Button{
+    background-image:linear-gradient(to left ,#AE1010 , #661313) ;
+    color: #FFFFFF;
+    border: 0;
+    border-radius: 8px;
+    width: 191px;
+    height: 35px;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+
+
