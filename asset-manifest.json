@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/snooker-new-app/static/css/main.5d329568.css",
+    "main.js": "/snooker-new-app/static/js/main.9ba4d8c9.js",
+    "static/media/login.png": "/snooker-new-app/static/media/login.3f1ef783741506b9f5df.png",
+    "static/media/img2.png": "/snooker-new-app/static/media/img2.c463ff6abfc19fbea2e8.png",
+    "index.html": "/snooker-new-app/index.html",
+    "main.5d329568.css.map": "/snooker-new-app/static/css/main.5d329568.css.map",
+    "main.9ba4d8c9.js.map": "/snooker-new-app/static/js/main.9ba4d8c9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5d329568.css",
+    "static/js/main.9ba4d8c9.js"
+  ]
+}
